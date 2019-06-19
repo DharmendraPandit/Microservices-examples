@@ -1,0 +1,12 @@
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:root@localhost:27019/admin
+
+user:
+  username: dkpandit.08@gmail.com
+  password: abcde@123456
+
+product:
+  url: http://localhost:9090

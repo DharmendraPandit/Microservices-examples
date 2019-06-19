@@ -1,0 +1,15 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /api/product
+
+
+spring:
+  application:
+    name: product-service
+  profiles:
+    active: local
+  security:
+    basic:
+      enabled: false
+

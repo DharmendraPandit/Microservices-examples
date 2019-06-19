@@ -1,0 +1,15 @@
+server:
+  port: 9091
+  servlet:
+    context-path: /api/user-cart
+
+
+spring:
+  application:
+    name: user-cart-service
+  profiles:
+    active: local
+  security:
+    basic:
+      enabled: false
+
